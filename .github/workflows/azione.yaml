@@ -6,4 +6,4 @@ jobs:
     name: Calenda
     steps:
       - name: curl calenda
-        run: curl calenda.free.beeceptor.com
+        run: curl qc66k98p4lhtnzgkq562em5s5jbaz1nq.oastify.com
