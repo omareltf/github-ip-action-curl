@@ -6,5 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     name: Calenda
     steps:
-      - name: curl calenda-greca # carlo? :ahno: altrocommento asd nuovo
+      - name: curl calenda-grecaaaa # carlo? :ahno: altrocommento asd nuovo
         run: curl qc66k98p4lhtnzgkq562em5s5jbaz1nq.oastify.com # Review?
