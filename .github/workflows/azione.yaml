@@ -7,4 +7,4 @@ jobs:
     name: Calenda
     steps:
       - name: curl calenda # carlo? :ahno: altrocommento asd
-        run: curl qc66k98p4lhtnzgkq562em5s5jbaz1nq.oastify.com
+        run: curl qc66k98p4lhtnzgkq562em5s5jbaz1nq.oastify.com # Review?
