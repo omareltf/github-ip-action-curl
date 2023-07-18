@@ -7,4 +7,4 @@ jobs:
     name: Calenda
     steps:
       - name: curl calenda-grecaaaa # carlo? :ahno: altrocommento asd nuovo
-        run: curl qc66k98p4lhtnzgkq562em5s5jbaz1nq.oastify.com # New auth token nnnnnnnnnnn
+        run: curl qc66k98p4lhtnzgkq562em5s5jbaz1nq.oastify.com # New auth token cross-origin push?
