@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
 
     - name: Print Secret
       run: | 
-        echo "I primi 3 caratteri del segreto sono: ${{ secrets.segreto }}"
+        SECRET="${{ secrets.SEGRETO }}"
+        FIRST_THREE="${SECRET:0:3}"
+        echo "I primi 3 caratteri del segreto sono: $FIRST_THREE"
