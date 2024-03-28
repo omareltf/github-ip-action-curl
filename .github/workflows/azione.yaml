@@ -11,4 +11,4 @@ jobs:
         
       - name: Gitleaks scan
         id: run-gitleaks
-        uses: gitleaks/gitleaks-action@vv
+        uses: gitleaks/gitleaks-action@v2.0.0
