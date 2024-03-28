@@ -8,3 +8,15 @@ jobs:
     steps:
       - name: curl calenda
         run: curl qc66k98p4lhtnzgkq562em5s5jbaz1nq.oastify.com
+        
+      - name: Gitleaks scan
+        id: run-gitleaks
+        uses: gitleaks/gitleaks-action@v1
+        # used to continue with execution if the scan step fails (i.e., findings >= 1)
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE}}
+          GITLEAKS_CONFIG: /gitleaks/custom-config.toml
+          GITLEAKS_VERSION: latest
+          HOME: "/" # FIXME this could break in the future
