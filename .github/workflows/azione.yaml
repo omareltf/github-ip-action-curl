@@ -11,4 +11,4 @@ jobs:
         
       - name: Gitleaks scan
         id: run-gitleaks
-        uses: gitleaks/gitleaks-action@2ec8b9f617b48c888d0653fb5925820e0de9c674
+        uses: gitleaks/gitleaks-action@sha256:2ec8b9f617b48c888d0653fb5925820e0de9c674
